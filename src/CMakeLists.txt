@@ -21,7 +21,10 @@ set(CMAKE_CXX_EXTENSIONS OFF)       # disable compiler specific extensions
 
 # executable
 add_executable(chess chess/main.cpp
- # add your files
+                chess/Chessman.h chess/Chessman.cpp
+                chess/Figure.h chess/Figure.cpp
+                chess/Chessboard.h chess/Chessboard.cpp
+                # add your files
 )
 
 # compilersettings
