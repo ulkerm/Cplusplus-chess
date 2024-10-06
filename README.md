@@ -1,18 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/9Y71xAQC)
-# SWO3-Übungen - WS 2023/24 - Übung 6
-
- Erstellen Sie für die Aufgabe eine entsprechende `CMakeLists.txt`-Datei und stellen Sie sicher, dass Sie keine Dateien aus Ihrer Entwicklungsumgebung dem Repository hinzufügen.
- Erstellen Sie ihre Visual-Studio Solution wie in den Übungen:
-
-```shell
-# open Devloper PowerShell for VS 2022
-cd src
-mkdir build
-cd build
-cmake ..
-# open generated .sln with Visual Studio
-```
-
 ## 1. Schach (src/chess/)
 
 Erstellen Sie mit Hilfe der Vererbungsmöglichkeiten in C++ Klasse ein erweiterbares Schachsystem. Dabei gibt es eine gemeinsame Basisklasse, z.B. `Chessman` für alle Spielfiguren. Jede Spielfigur muss mindestens folgende Funktionalität bieten:
